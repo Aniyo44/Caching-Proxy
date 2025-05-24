@@ -28,6 +28,14 @@ exmaple :
  node index.js --port 3000 --origin http://dummyjson.com
 
 ```
+check :
+http://localhost:3000/products 
+or curl :
+```bash
+curl -i http://localhost:3000/products
+
+```
+
 example output 
 first time :
 ```bash
